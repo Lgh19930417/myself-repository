@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-service-consumer" />
+        <module name="Eureka_Server" />
+        <module name="springcloud-service-provider" />
+        <module name="springcloud-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Eureka_Server" target="1.5" />
+      <module name="springcloud-service-consumer" target="1.6" />
+      <module name="springcloud-service-provider" target="1.5" />
+      <module name="springcloud-zuul" target="1.5" />
+      <module name="SpringCloudZuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCloudZuul" options="-parameters" />
+      <module name="springcloud-zuul" options="" />
+    </option>
+  </component>
+</project>

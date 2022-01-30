@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue 入门学习</title>
+</head>
+<script src="vue.min.js"></script>
+<body>
+    <!-- view -->
+    <div id="vueTest">
+        {{name}}
+    </div>
+</body>
+<script>
+    //定义model以及VM
+    var vue = new Vue(
+        {
+            el:"#vueTest",//定义负责view区域
+            data:{
+               name:"张培培"
+            }
+        }
+    );
+
+</script>
+</html>

@@ -1,0 +1,55 @@
+package com.itfxp.consumer;
+
+import com.rabbitmq.client.*;
+
+import java.io.IOException;
+import java.util.concurrent.TimeoutException;
+
+public class RoutingKeyConsume {
+    //定义交换机
+    private static final String ExchangeS="exchange_routingkey";
+    //定义队列一
+    private static final String QUEUE_A="queue-a";
+    //定义队列二
+    private static final String QUEUE_B="queue_b";
+
+    public static void main(String[] args) {
+        try {
+            //创建连接工厂
+            ConnectionFactory factory = new ConnectionFactory();
+            //设置工厂主机
+            factory.setHost("localhost");
+            //设置工厂端口号
+            factory.setPort(5672);
+            //设置工厂用户名
+            factory.setUsername("guest");
+            //设置密码
+            factory.setPassword("guest");
+            //设置虚拟主机
+            factory.setVirtualHost("/");
+            //创建连接
+            Connection connection = factory.newConnection();
+            //创建频道
+            Channel channel = connection.createChannel();
+            //声明队列
+            channel.queueDeclare(QUEUE_A,true,false,false,null);
+            channel.queueDeclare(QUEUE_B,true,false,false,null);
+            //接收消息
+            channel.basicConsume(QUEUE_B,true,new DefaultConsumer(channel){
+                @Override
+                public void handleDelivery(String consumerTag,
+                                           Envelope envelope,
+                                           AMQP.BasicProperties properties,
+                                           byte[] body)
+                        throws IOException
+                {
+                    System.out.println("接受到的消息为："+new String(body));
+                }
+            });
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (TimeoutException e) {
+            e.printStackTrace();
+        }
+    }
+}

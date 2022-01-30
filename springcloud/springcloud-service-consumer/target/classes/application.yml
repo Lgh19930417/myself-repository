@@ -1,0 +1,19 @@
+server:
+  port: 10078
+spring:
+  application:
+    name: SpringCloudServiceConsumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10001/eureka
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000 # 设置hystrix的超时时间为6000ms
+feign:
+  hystrix:
+    enabled: true

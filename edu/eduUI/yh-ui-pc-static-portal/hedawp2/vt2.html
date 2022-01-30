@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue入门程序</title>
+
+
+</head>
+<body>
+    <!-- 2、定义视图（view）部分，展示给用户 -->
+    <div id="school">
+       <!-- {{schoolName}}-->
+        <!-- v-text 解决差值闪烁问题 -->
+        <a :href="url">
+            <span :style="{ fontSize: size + 'px' }" v-text="schoolName"></span>
+        </a>
+        <br/>
+        <!--v-model指令：双向绑定
+         1、把模型数据绑定到视图，模型数据发生改变，视图部分随着发生变化。
+         2、把视图数据绑定到模型上，当视图数据发生改变，模型数据随之发生变化
+         -->
+        计算器： <input :style="{ fontSize: size + 'px' }" type="text" v-model="num1" /> +
+        <input :style="{ fontSize: size + 'px' }" type="text" v-model="num2">
+        <!--<span v-text="Number.parseInt(num1)+Number.parseInt(num2)"></span>-->
+        <span :style="{ fontSize: size + 'px' }" v-text="res"></span>
+        <!--{{Number.parseInt(num1)+Number.parseInt(num2)}}-->
+        <button :style="{ fontSize: size + 'px' }" v-on:click="count">计算</button>
+
+        <div :style="{ fontSize: size + 'px' }">字体</div>
+        <ul>
+            <li v-for="(item,index) in myList"  v-if="index%2==0"> {{index}}--{{item}}</li>
+            <li v-for="(value,key) in user">
+                <span v-text="key"></span>--<span v-text="value"></span>
+            </li>
+            <li v-for="(item,index) in userList">
+                <div v-if="index%2==0" style="background: pink">
+                    <span v-text="index"></span>--
+                    <span v-text="item.user.name"></span>--
+                    <span v-text="item.user.age"></span>--
+                    <span v-text="item.user.id"></span>
+                </div>
+                <div v-else style="background: #00b7ee;">
+                    <span v-text="index"></span>--
+                    <span v-text="item.user.name"></span>--
+                    <span v-text="item.user.age"></span>--
+                    <span v-text="item.user.id"></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+<!-- 1、创建html文件，并引入vue.min.js -->
+<!--<script src="build.js"></script>-->
+<script>
+    <!--3 定义model和viewModel,实例vue 对象 -->
+
+</script>
+</html>

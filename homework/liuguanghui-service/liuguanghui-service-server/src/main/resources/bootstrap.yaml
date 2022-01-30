@@ -1,0 +1,30 @@
+server:
+  port: 18888
+spring:
+  application:
+    name: homework-service-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.2:8848
+      config:
+        server-addr: 127.0.0.2:8848
+        group: DEFAULT_GROUP
+        file-extension: yaml
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot?useUnicode=true
+    username: root
+    password: root
+dubbo:
+  registry:
+    address: nacos://127.0.0.2:8848
+  protocol:
+    name: dubbo
+    port: 20088
+  scan:
+    base-packages: com.homework
+mybatis-plus:
+  type-aliases-package: com.homework
+  mapper-locations: classpath:/mapper/**

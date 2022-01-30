@@ -1,0 +1,18 @@
+server:
+  port: 31000
+spring:
+  application:
+    name: cms_client
+  data:
+    mongodb:
+      database: yh_cms
+      uri: mongodb://localhost:27017/
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+    port: 5672
+yh:
+  mq:
+    queue: cms_post_queue_course_1
+    routeKey: 616435644b706109ac32cd5a

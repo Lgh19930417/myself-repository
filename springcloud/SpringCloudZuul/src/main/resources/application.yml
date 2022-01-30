@@ -1,0 +1,28 @@
+server:
+  port: 10001
+spring:
+  application:
+    name: api-gateway
+zuul:
+  routes:
+    SpringCloudServiceConsumer: #此处可以随便写，通常都写服务id（标识）
+      path: /SpringCloudServiceConsumer/**  # 拦截标识
+      url: http://127.0.0.1:10078 #映射地址
+
+
+# 面向服务的配置方式
+#zuul:
+#  routes:
+#    provider-server:
+#      path: /provider-server/**
+#      serviceId: provider-server
+#    consumer-server:
+#      path: /consumer-server/**
+#      serviceId: consumer-server
+
+# 简化配置
+#zuul:
+#  routes:
+#    provider-server: /provider-server/**
+#    consumer-server: /consumer-server/**
+

@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7816e641-a352-4570-9be4-5f75a14426db" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1427246559">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="10" />
+          <entry key="js" value="18" />
+          <entry key="json" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="10" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1471" />
+          <entry key="js" value="331" />
+          <entry key="json" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1471" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="331" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1747834244">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="12" />
+          <entry key="js" value="11" />
+          <entry key="json" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="12" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1858" />
+          <entry key="js" value="157" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1858" />
+          <entry key="JavaScript" value="157" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hedawp2/vt2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2028">
+              <caret line="52" column="25" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hedawp2/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpacktest2/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="3" column="4" selection-start-line="1" selection-start-column="2" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hedawp2/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hedawp2/src/module1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>传智播客</find>
+      <find>学成</find>
+      <find>黑马</find>
+      <find>xuecheng</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>lxw</replace>
+      <replace>乐学</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vueTest/vueTest1.html" />
+        <option value="$PROJECT_DIR$/vueTest/vueTest2.html" />
+        <option value="$PROJECT_DIR$/webpacktest/vueTest1.html" />
+        <option value="$PROJECT_DIR$/webpacktest/module1.js" />
+        <option value="$PROJECT_DIR$/webpacktest/main.js" />
+        <option value="$PROJECT_DIR$/webpacktest2/webpack.conﬁg.js" />
+        <option value="$PROJECT_DIR$/webpacktest2/package.json" />
+        <option value="$PROJECT_DIR$/webpacktest2/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpacktest2/src/main.js" />
+        <option value="$PROJECT_DIR$/webpacktest2/vueTest1.html" />
+        <option value="$PROJECT_DIR$/webpacktest2/src/module1.js" />
+        <option value="$PROJECT_DIR$/vueTest/vt.html" />
+        <option value="$PROJECT_DIR$/webptest1/module.js" />
+        <option value="$PROJECT_DIR$/webptest1/main.js" />
+        <option value="$PROJECT_DIR$/webptest1/vt.html" />
+        <option value="$PROJECT_DIR$/webptest2/package.json" />
+        <option value="$PROJECT_DIR$/webptest2/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webptest2/vt.html" />
+        <option value="$PROJECT_DIR$/webptest2/src/module.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/vt/vt1.html" />
+        <option value="$PROJECT_DIR$/vueTest/vt11.html" />
+        <option value="$PROJECT_DIR$/vueTest/vt_if_for.html" />
+        <option value="$PROJECT_DIR$/hedavt/vt1.html" />
+        <option value="$PROJECT_DIR$/hedavt/vt2.html" />
+        <option value="$PROJECT_DIR$/hedawp/module1.js" />
+        <option value="$PROJECT_DIR$/hedawp/main.js" />
+        <option value="$PROJECT_DIR$/hedawp/vt2.html" />
+        <option value="$PROJECT_DIR$/hedawp2/webpack.conﬁg.js" />
+        <option value="$PROJECT_DIR$/hedawp2/package.json" />
+        <option value="$PROJECT_DIR$/hedawp2/vt2.html" />
+        <option value="$PROJECT_DIR$/hedawp2/src/module1.js" />
+        <option value="$PROJECT_DIR$/hedawp2/webpack.config.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/webpacktest2/package.json" />
+    <package-json value="$PROJECT_DIR$/webptest2/package.json" />
+    <package-json value="$PROJECT_DIR$/hedawp2/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/hedawp2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/plugins/bootstrap/node_modules" />
+    <handled-path value="$PROJECT_DIR$/static/plugins/bootstrap/node_modules" />
+    <handled-path value="$PROJECT_DIR$/webpacktest2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/webptest2/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/hedawp2/package.json" />
+      <path value="$PROJECT_DIR$/plugins/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/static/plugins/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/webpacktest2/package.json" />
+      <path value="$PROJECT_DIR$/webptest2/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="224" />
+    <option name="y" value="344" />
+    <option name="width" value="1374" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yh-ui-pc-static-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yh-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yh-ui-pc-static-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yh-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="hedavt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yh-ui-pc-static-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yh-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="hedawp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yh-ui-pc-static-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yh-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="hedawp2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yh-ui-pc-static-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yh-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="hedawp2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yh-ui-pc-static-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yh-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="webpacktest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yh-ui-pc-static-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yh-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="webpacktest2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yh-ui-pc-sysmanage" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\jiaoyu\eduUI01\yh-ui-pc-static-portal\webpacktest2\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\heda\eduUI01\yh-ui-pc-static-portal\hedawp2" />
+      <recent name="E:\heda\eduUI01\yh-ui-pc-static-portal\hedawp2\src" />
+      <recent name="E:\heda\eduUI01\yh-ui-pc-static-portal\hedawp" />
+      <recent name="E:\heda\eduUI01\yh-ui-pc-static-portal\hedavt" />
+      <recent name="E:\heda\eduUI01\yh-ui-pc-static-portal\vueTest" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev (1)" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/webptest2/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (2)" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/hedawp2/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/webpacktest2/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.dev (1)" />
+      <item itemvalue="npm.dev (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev (2)" />
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7816e641-a352-4570-9be4-5f75a14426db" name="Default Changelist" comment="" />
+      <created>1584946572152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584946572152</updated>
+      <workItem from="1584946577243" duration="831000" />
+      <workItem from="1584947507804" duration="1116000" />
+      <workItem from="1585029881156" duration="599000" />
+      <workItem from="1585278604905" duration="1367000" />
+      <workItem from="1585288013463" duration="2903000" />
+      <workItem from="1585439659815" duration="16934000" />
+      <workItem from="1585527865005" duration="8126000" />
+      <workItem from="1587262707485" duration="636000" />
+      <workItem from="1587264794015" duration="1062000" />
+      <workItem from="1587882453380" duration="700000" />
+      <workItem from="1587884316700" duration="599000" />
+      <workItem from="1587889662441" duration="1299000" />
+      <workItem from="1588644020910" duration="74000" />
+      <workItem from="1588644139577" duration="125000" />
+      <workItem from="1588644679556" duration="4567000" />
+      <workItem from="1589030449073" duration="270000" />
+      <workItem from="1589069152042" duration="12907000" />
+      <workItem from="1589638980752" duration="806000" />
+      <workItem from="1589669338551" duration="2269000" />
+      <workItem from="1589675829511" duration="4793000" />
+      <workItem from="1589682382149" duration="366000" />
+      <workItem from="1602387195489" duration="616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="62965000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="npm" order="0" sideWeight="0.4110629" side_tool="true" visible="true" weight="0.22023182" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.5889371" visible="true" weight="0.22023182" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947312" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37527114" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webpacktest/vueTest2.html" />
+    <entry file="file://$PROJECT_DIR$/webpacktest/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpacktest2/webpack.conﬁg.js" />
+    <entry file="file://$PROJECT_DIR$/webpacktest/vueTest1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpacktest2/vueTest1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpacktest2/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpacktest/module1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpacktest2/src/module1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webptest1/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webptest1/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpacktest/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webptest1/vt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1287">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webptest2/src/vue.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webptest2/vt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webptest2/src/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webptest2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webptest2/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6513">
+          <caret line="167" column="4" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueTest/vt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueTest/vueTest1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1287">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webptest1/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueTest/vueTest2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vt/vue.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vt/vt1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueTest/vt11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="31" selection-start-line="31" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueTest/vt_if_for.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedavt/vue.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedavt/vt1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedavt/vt2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1521">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedawp/buid.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedawp/vt2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1262">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedawp/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4641">
+          <caret line="119" column="13" lean-forward="true" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedawp/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedawp/module1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedawp2/src/vue.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpacktest2/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="1" selection-start-line="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedawp2/webpack.conﬁg.js" />
+    <entry file="file://$PROJECT_DIR$/hedawp2/vt2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2028">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedawp2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpacktest2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="4" selection-start-line="1" selection-start-column="2" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedawp2/src/module1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hedawp2/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

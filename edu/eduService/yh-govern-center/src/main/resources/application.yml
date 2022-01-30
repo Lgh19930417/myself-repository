@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: yh‐govern‐center
+server:
+  port: 50101
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:50101/eureka/
+  server:
+    #是否开启自我保护模式
+    enable‐self‐preservation: false
+    eviction‐interval‐timer‐in‐ms: 60000

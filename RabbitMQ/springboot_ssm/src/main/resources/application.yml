@@ -1,0 +1,15 @@
+server:
+  port: 10086
+  #配置静态资源路径
+spring:
+  resources:
+    static-locations: classpath:/static/,classpath:/public/,classpath:/templates/
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///springboot
+    username: root
+    password: root
+mybatis:
+  #mapper路径地址和别名
+  type-aliases-package: com.itfxp.bean
+  mapper-locations: classpath:/mapper/*.xml

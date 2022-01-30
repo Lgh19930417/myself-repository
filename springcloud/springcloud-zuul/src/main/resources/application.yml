@@ -1,0 +1,37 @@
+server:
+  port: 10021
+spring:
+  application:
+    name: springcloud-zuul
+#    注册到eureka中
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10001/eureka
+    registry-fetch-interval-seconds: 5
+#旧的zuul配置
+#zuul:
+#  routes:
+#    springcloudserviceprovider:
+#      path: /SpringCloudServiceProvider/**
+#      url: http://127.0.0.1:10078
+#面向服务的的zuul配置
+#zuul:
+#  routes:
+#    SpringCloudServiceProvider:
+#      path: /SpringCloudServiceProvider/**
+#      serviceId: SpringCloudServiceProvider
+#    SpringCloudServiceConsumer:
+#      path: /SpringCloudServiceConsumer/**
+#      serviceId: SpringCloudServiceConsumer
+#简化上面的配置
+#zuul:
+#  routes:
+#    SpringCloudServiceProvider: /SpringCloudServiceProvider/**
+#    SpringCloudServiceConsumer: /SpringCloudServiceConsumer/**
+#zuul也可以不进行配置,此时会按照默认的拦截规则进行代理,默认的拦截规则就是上面所写的规则,此外还要求
+#每个服务都要有spring.application.name,且在浏览器中进行访问时,必须将serviceID写到localhost:port/后面,且均为小写
+#也可以对zuul加前缀,目的时为了表明服务时对外还是对内提供的,例如加上restful-api这个前缀,一目了然时对外提供的,
+#下面予以演示及zuul默认配置及前缀操作
+zuul:
+  prefix: /restful-api

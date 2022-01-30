@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js测试程序</title>
+
+</head>
+<body>
+    <!-- 定义MVVM中的View部分-->
+    <div id="welcome">
+        <ul>
+            <li v-for="(item,index) in mylist" :key="index" v-if="index%2==0">{{index}}--{{item}}</li>
+            <li v-for="(value,key) in user"> {{key}}--{{value}}</li>
+            <li v-for="(item,index) in userList" :key="item.user.name" >
+                <div v-if="item.user.name=='lisi'" style="background: #00b7ee">
+                    {{index}}--{{item.user.name}}--{{item.user.age}}
+                </div>
+                <div v-else style="background: deeppink">
+                    {{index}}--{{item.user.name}}--{{item.user.age}}
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</body>
+<script src="vue.min.js"></script>
+<script>
+    <!--  定义VM部分-->
+    var vm = new Vue(
+        {
+            el:"#welcome", //MV代表接管了welcome区域
+            data:{
+                mylist:["aa","bb","cc"],
+                user:{name:"zhangsan",age:23},
+                userList:[{user:{name:"zhangsan",age:23},},
+                    {user:{name:"lisi",age:22},}
+                ]
+            }
+        }
+    );
+</script>
+</html>

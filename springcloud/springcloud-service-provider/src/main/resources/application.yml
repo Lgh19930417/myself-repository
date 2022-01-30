@@ -1,0 +1,20 @@
+server:
+  port: 10086
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///springboot
+    username: root
+    password: root
+  application:
+    name: SpringCloudServiceProvider
+mybatis:
+  type-aliases-package: com.itfxp.bean
+  mapper-locations: classpath:/mapper/**
+logging:
+  level:
+    com.itfxp.mapper: debug
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10001/eureka

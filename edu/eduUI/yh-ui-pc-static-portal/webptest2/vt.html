@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="nameId">
+        <!--{{name}}-->
+        <a :href="url">百度----</a>
+       <span v-text="name"></span>
+        <div>
+            <input type="text" v-model="num1">+
+            <input type="text" v-model="num2">=
+            <span v-text="result"></span>
+            <button v-on:click="count">计算</button>
+            <div v-bind:style="{ fontSize: size + 'px' }">欢迎学习vue</div>
+            <ul>
+                <li v-for="(item,index) in mylist" :key="index" v-if="index%2==0">{{index}} --{{item}} </li>
+                <li v-for="(v,k) in user"  >{{k}} --{{v}} </li>
+                <li v-for="(item,i) in userList"  >
+                    <div v-if="item.user.name!='yangchong'" style="background: deeppink"> {{i}}--{{item.user.name}}</div>
+                    <div v-if="item.user.name=='yangchong'" style="background: green"> {{i}}--{{item.user.name}}</div>
+                </li>
+            </ul>
+           <!-- {{Number.parseInt(num1) + Number.parseInt(num2)}}-->
+        </div>
+    </div>
+
+</body>
+<!--<script src="vue.min.js"></script>-->
+  <!-- <script src="build.js"></script>-->
+
+</html>

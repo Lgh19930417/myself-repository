@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Eureka_Server/Eureka_Server.iml" filepath="$PROJECT_DIR$/Eureka_Server/Eureka_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-service-consumer/springcloud-service-consumer.iml" filepath="$PROJECT_DIR$/springcloud-service-consumer/springcloud-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-service-provider/springcloud-service-provider.iml" filepath="$PROJECT_DIR$/springcloud-service-provider/springcloud-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" filepath="$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+server:
+  port: 56040
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: service2-server
+dubbo:
+  scan:
+    base-packages: com.itfxp
+  protocol:
+    name: dubbo
+    port: 20891
+  registry:
+    address: nacos://127.0.0.1:8848

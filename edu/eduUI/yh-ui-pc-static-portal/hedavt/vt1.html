@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue入门程序</title>
+    <!-- 1、创建html文件，并引入vue.min.js -->
+    <script src="vue.min.js"></script>
+</head>
+<body>
+    <!-- 2、定义视图（view）部分，展示给用户 -->
+    <div id="school">
+        {{schoolName}}
+    </div>
+</body>
+<script>
+    <!--3 定义model和viewModel,实例vue 对象 -->
+    var vm = new Vue({
+        el:"#school",//vm接管的视图view部分
+        data:{
+            schoolName: "河南大学"
+        }
+    });
+</script>
+</html>

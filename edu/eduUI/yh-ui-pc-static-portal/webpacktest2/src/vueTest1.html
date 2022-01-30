@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js测试程序</title>
+
+</head>
+<body>
+    <!-- 定义MVVM中的View部分-->
+    <div id="welcome">
+        <a :href="url">
+            <span v-text="name"></span>
+        </a>
+       <!-- {{name}}-->
+        <input type="text" v-model="num1">+<input type="text" v-model="num2">=
+        <!--{{Number.parseInt(num1)+Number.parseInt(num2)}}-->
+        <!--<span v-text="Number.parseInt(num1)+Number.parseInt(num2)"></span>-->
+        <span v-text="result"></span>
+        <button v-on:click="count" >计算</button>
+         <div v-bind:style="{fontSize:size+'px'}">入门</div>
+
+    </div>
+</body>
+<script src="./build.js"></script>
+<!--<script src="vue.min.js"></script>-->
+<!--<script>
+
+</script>-->
+</html>
